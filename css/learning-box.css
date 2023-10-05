@@ -1,13 +1,13 @@
 aside{
     margin: 35px;
-    padding-bottom: 20px;
     background-color: rgb(206, 250, 206);
     border-radius: 15px 15px 15px 15px;
 }
 h4{
-    padding: 10px 0 10px 0;
+    padding: 20px;
     background-color: lightgreen;
     border-radius: 15px 15px 0 0;
+    font-size: 1.5em;
 }
 aside > div > ul > #check1  > li::before{
     content: '✔';
@@ -18,18 +18,15 @@ aside > div >  ul > #check2 > li::before{
 aside > div >  ul > #check1{
     width: 49.5%;
     float:left;
-    margin: 15px 0 15px 0;
+    margin: 15px 0 35px 0;
 }
 aside > div >  ul > #check2{
     width: 49.5%;
     float:right;
-    margin: 15px 0 15px 0;
-}
-aside > div > ul{
-    display: flex;
+    margin: 15px 0 35px 0;
 }
 aside > p{
     height: auto;
-    padding: 0px 20px 0px 20px;
+    padding: 15px 20px 15px 20px;
     text-align: justify;
 }

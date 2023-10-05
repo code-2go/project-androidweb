@@ -3,7 +3,7 @@
 @import url(../css/learning-box.css);
 @font-face {
     font-family:'idoid';
-    src: url(fontes/idroid.otf) format(opentype);
+    src: url(../fontes/idroid.otf) format(opentype);
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
@@ -51,19 +51,19 @@ article > picture > img{
     margin: auto;
 }
 .youtube{
-    padding: 20px 10px 20px 0px;
-    text-align: center;
+    position: relative;
+    padding-bottom: 56%;
     background-color: darkgreen;
 }
 .youtube > iframe{
-    width: 80%;  
-    min-width: 315px;
-    max-width: 560px;
-    max-height: 315px;
+    position: absolute; 
+    padding: 3% 0 0 3.55%;
+    width: 89.02%;
+    height: 89.3%;
 }
 .section4{
-    margin: 0 25px 0 25px;
-    padding: 0 25px 20px 25px;
+    margin: 0 35px 0 35px;
+    padding: 0 20px 20px 20px;
     text-align: justify;
 }
 footer{
